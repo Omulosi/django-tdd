@@ -1,0 +1,8 @@
+db.sqlite3
+geckodriver.log
+venv
+*~
+*swp
+__pycache__
+*.pyc
+
