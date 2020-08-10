@@ -1,1 +1,13 @@
-django==1.11.13
+certifi==2020.6.20
+chardet==3.0.4
+chromedriver-binary==80.0.3987.106.0
+colorama==0.4.3
+configparser==5.0.0
+crayons==0.3.1
+Django==1.11.25
+idna==2.10
+pytz==2019.2
+requests==2.24.0
+selenium==3.141.0
+urllib3==1.25.6
+webdriver-manager==3.2.1
