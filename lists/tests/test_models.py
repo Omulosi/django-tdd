@@ -6,8 +6,8 @@ from django.core.exceptions import ValidationError
 from lists.views import home_page
 from lists.models import Item, List
 
-class ItemModelTest(TestCase):
 
+class ItemModelTest(TestCase):
     def test_saving_and_retrieving_items(self):
         list_ = List()
         list_.save()
@@ -38,3 +38,7 @@ class ItemModelTest(TestCase):
         with self.assertRaises(ValidationError):
             item.save()
             item.full_clean()
+
+    def test_get_absolute_url(self):
+        list_ = List.objects.create()
+        self.assertEqual(list_.get_absolute_url(), f'/lists/{list_.id}/')
