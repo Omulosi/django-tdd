@@ -13,7 +13,10 @@ These instructions will get you a copy of the project up and running on your loc
 * Firefox and geckodriver
 
 [Installing Python 3 on Linux](https://docs.python-guide.org/starting/install3/linux/)
+
 [Installing Python3 on Windows](https://www.python.org/downloads/windows/)
+
+[Geckodriver](https://github.com/mozilla/geckodriver/releases)
 
 ### Installing
 
@@ -30,7 +33,7 @@ Activate virtual environment
 
 windows
 ```
-source virtualenv/Scripts/activate
+source venv/Scripts/activate
 ```
 
 linux/Mac
