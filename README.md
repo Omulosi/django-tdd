@@ -1,6 +1,7 @@
 # Test Driven Development with Django
 
-One Paragraph of project description goes here
+A deep dive into the discipline of Test Driven Development  by building a web app
+from scratch using Django, Selenium, jQuery and Mocks.
 
 ## Getting Started
 
