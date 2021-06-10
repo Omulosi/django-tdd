@@ -4,7 +4,7 @@ chromedriver-binary==80.0.3987.106.0
 colorama==0.4.3
 configparser==5.0.0
 crayons==0.3.1
-Django==1.11.25
+Django==2.2.24
 idna==2.10
 pytz==2019.2
 requests==2.24.0
