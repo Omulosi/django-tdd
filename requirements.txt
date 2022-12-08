@@ -1,4 +1,4 @@
-certifi==2020.6.20
+certifi==2022.12.7
 chardet==3.0.4
 chromedriver-binary==80.0.3987.106.0
 colorama==0.4.3
